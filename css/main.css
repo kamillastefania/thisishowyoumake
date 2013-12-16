@@ -1,0 +1,96 @@
+body {
+	font-family: 'Julius Sans One', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: aqua;
+}
+
+a:hover {
+	text-decoration: none;
+	color: aqua;
+}
+
+header {
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	padding: 1%;
+}
+
+.title {
+	font-size: 2.25em;
+}
+
+.sub-title {
+	font-size: 1.55em;
+}
+
+.thisishowyoumake {
+	text-align: center;
+}
+
+.thisishowyoumake img {
+	width: 25%;
+	padding: 1%;
+	text-align: center;
+	}
+
+.thisishowyoumake video {
+	width: 25%;
+	padding: 1%;
+	text-align: center;
+	}
+
+@media only screen and (min-width: 980px) and (max-width: 1280px) {
+
+.thisishowyoumake img {
+	width: 25%;
+	padding: 1%;
+	text-align: center;
+	}
+
+.thisishowyoumake video {
+	width: 25%;
+	padding: 1%;
+	text-align: center;
+	}
+}
+
+@media only screen and (min-width: 720px) and (max-width: 980px) {
+	.thisishowyoumake img {
+	width: 45%;
+	padding: 1%;
+	text-align: center;
+	}
+
+	.thisishowyoumake video {
+	width: 45%;
+	padding: 1%;
+	text-align: center;
+	}
+
+}
+
+@media screen and (max-width: 720px){
+	.thisishowyoumake img {
+	width: 80%;
+	padding: 1%;
+	text-align: center;
+	}
+
+	.thisishowyoumake video {
+	width: 80%;
+	padding: 1%;
+	text-align: center;
+	}
+
+	footer {
+	text-align: center;
+	padding: 1%;
+	}
+
+}
